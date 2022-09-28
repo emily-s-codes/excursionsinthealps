@@ -82,19 +82,14 @@ header {
 }
 
 header h1 {
-    display: inline-block;
     margin: 0 auto;
     color: #fff;
     text-align: center;
     font-size: 6rem;
 }
 
-header h1.header__excursions {
-    padding: 20vh 35% 0 35%;
-}
-
-header h2.header__inthealps {
-    padding: 0 35% 20vh 35%;
+header section {
+    padding: 20vh 0;
 }
 
 /* ======================================
