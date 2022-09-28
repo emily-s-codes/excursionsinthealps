@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ======================================
+        assets
+border: #ccc.
+color logo: #999.
+color home: #fff.
+color: #333
+
+
+font-family: 'Cinzel-Regular', serif;
+font-family: 'Poppins-Regular', sans-serif;
+====================================== */
+
+/* ======================================
+        general styles
+====================================== */
+
+html {
+    font-size: 10px;
+    color: #000;
+}
+
+@font-face {
+    font-family: 'Cinzel-Regular';
+    src: url("../fonts/Cinzel-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url("../fonts/Poppins-Regular.ttf");
+}
+
+h1,
+h2 {
+    font-family: 'Cinzel-Regular', serif;
+}
+
+p,
+ul {
+    font-family: 'Poppins-Regular', sans-serif;
+}
+
+/* ======================================
+        body
+====================================== */
+body nav h2 {
+    display: inline-block;
+    margin: 1vh auto 0 4vh;
+    color: #999;
+}
+
+body nav ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+body nav ul li {
+    display: inline-block;
+    padding: 0 2vh 2vh;
+}
+
+body nav ul li a {
+    color: #999;
+    text-decoration: none;
+}
+
+/* ======================================
+        header
+====================================== */
+header {
+    background-image: url("https://images.unsplash.com/photo-1486312699619-be057cfc0342?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1502&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 60vh;
+}
+
+header h1 {
+    display: inline-block;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    font-size: 6rem;
+}
+
+header h1.header__excursions {
+    padding: 20vh 35% 0 35%;
+}
+
+header h2.header__inthealps {
+    padding: 0 35% 20vh 35%;
+}
+
+/* ======================================
+        main
+====================================== */
+
+main {
+    margin: 5vh 10%;
+}
+
+main h2.main__headline__choose {
+    text-align: center;
+    margin: 7vh;
+}
+
+main article p {
+    text-align: center;
+    margin: 2vh 0;
+    font-size: 1.2rem;
+}
+
+main section {
+    text-align: center;
+    margin: 7vh 0;
+}
+
+main section div {
+    margin: 4vh 2vh;
+    display: inline-block;
+}
+
+main section div img {
+    width: 22vw;
+}
+
+main h2.main__headline__dates {
+    text-align: center;
+    margin: 6vh auto 4vh auto;
+}
+
+main article ul {
+    display: inline-block;
+    padding: 0 2vh;
+    list-style-type: none;
+}
+
+main article ul li {
+    margin: 2vh auto;
+}
+
+.main__li__1::after,
+.main__li__2::after,
+.main__li__3::after {
+    content: " - SOLD OUT";
+    text-transform: uppercase;
+    color: red;
+}
+
+.main__li__4::after {
+    content: " - only 4 spots available";
+    text-transform: uppercase;
+    color: red;
+}
+
+.main__li__5::after,
+.main__li__6::after {
+    content: " - available";
+    text-transform: uppercase;
+    color: green;
+}
+
+/* ======================================
+        footer
+====================================== */
+
+footer {
+    border-top: 2px solid #ccc;
+}
+
+footer h2 {
+    text-align: center;
+    margin: 2.5vh auto;
+}
+
+footer h2 a {
+    color: #000;
+    text-decoration: none;
+}
